@@ -403,7 +403,7 @@ class TUIOClient: F53OSCPacketDestination {
             //-------------------Handle 2Dcur---------------------------
             
         } else if (address == "/tuio/2Dcur") {
-            print("Got command: " + command)
+            //print("Got command: " + command)
             if (command  == "set"){
                 
                 
@@ -414,14 +414,16 @@ class TUIOClient: F53OSCPacketDestination {
                 let yspeed = args[5] as! Float;
                 let maccel = args[6] as! Float
                 
-                print("set cur \(s_id) \(xpos) \(ypos) \(xspeed) \(yspeed) \(maccel)")
+                //print("set cur \(s_id) \(xpos) \(ypos) \(xspeed) \(yspeed) \(maccel)")
                 
                 if ((cursorList[s_id]) == nil){
                     
                     let addCursor =  TuioCursor(si: s_id, ci: -1 ,xp: xpos,yp: ypos);
                     frameCursors.append(addCursor);
                     cursorList[s_id] = addCursor
-                    
+                    for listener in self.listenerList{
+                        listener.addTuioCursor(tcur: addCursor)
+                    }
                 } else {
                     if let tcur = cursorList[s_id]{
                         if (!(tcur.xpos==xpos) || !(tcur.ypos==ypos) || !(tcur.x_speed==xspeed) || !(tcur.y_speed==yspeed) || !(tcur.motion_accel==maccel)) {
@@ -440,18 +442,34 @@ class TUIOClient: F53OSCPacketDestination {
             } else if (command == "alive") {
                 newCursorList.removeAll()
                 
-                
+                //print("alive!")
+                var newCursorList = [CLong:TuioCursor]()
                 for i in 1 ..< args.count  {
-                    
                     // get the message content
                     let s_id = args[i] as! CLong
-                    newCursorList.append(s_id)
-                    
-                    // reduce the cursor list to the lost cursors
-                    aliveCursorList.delete(element: s_id)
-                    
-                    
+                    if let tcur = self.getTuioCursor(s_id: s_id){
+                        //print("cursor %ld is still alive", s_id)
+                        newCursorList[s_id] = tcur
+                    }else{
+                        //print("cursor %ld is new...", s_id)
+                    }
                 }
+                // newcursor list contains all current, exisiting cursors...
+                //remove all cursors not in newCursorList
+                for s_id in cursorList.keys{
+                    if let tcur = newCursorList[s_id]{
+                        
+                    }else{
+                        for listener in listenerList{
+                            if let tcur = self.getTuioCursor(s_id: s_id){
+                                listener.removeTuioCursor(tcur: tcur)
+                            }
+                        }
+                    }
+                }
+                
+                cursorList = newCursorList
+                
                 // remove the remaining cursors
                 for i in 0 ..< aliveCursorList.count  {
                     let removeCursor = cursorList[aliveCursorList[i]]
@@ -491,11 +509,9 @@ class TUIOClient: F53OSCPacketDestination {
                             
                             
                             for listener in listenerList{
-                                
-                                if (!(listener==nil)) {
-                                    listener.removeTuioCursor(tcur: removeCursor);
-                                }
+                                listener.removeTuioCursor(tcur: removeCursor);
                             }
+                            cursorList[tcur.session_id] = nil
                             
                             if (removeCursor.getCursorID()==maxCursorID) {
                                 maxCursorID = -1;
@@ -528,12 +544,12 @@ class TUIOClient: F53OSCPacketDestination {
                             
                             break;
                         case TuioCursor.TUIO_ADDED:
-                            print("cursor added...")
-                            
-                            for listener in self.listenerList{
-                                listener.addTuioCursor(tcur: tcur)
+                            if cursorList[tcur.session_id] == nil{
+                                cursorList[tcur.session_id] = tcur
+                                for listener in self.listenerList{
+                                    listener.addTuioCursor(tcur: tcur)
+                                }
                             }
-                            
                             var c_id=cursorList.count
                             
                             if ((cursorList.count <= maxCursorID) && (freeCursorList.count>0)){

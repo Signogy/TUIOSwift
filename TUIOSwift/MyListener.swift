@@ -64,7 +64,9 @@ class MyListener: TuioListener {
      * @param  tcur  the TuioCursor reference associated to the removeTuioCursor event
      */
 
-    func removeTuioCursor(tcur:TuioCursor){}
+    func removeTuioCursor(tcur:TuioCursor){
+        print("\(name)  removed Cursor")
+    }
     
     /**
      * This callback method is invoked by the TuioClient when a new TuioBlob is added to the session.
