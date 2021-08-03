@@ -6,3 +6,5 @@ It also uses parts of the TUIO Simulator, to provide client-side and server-side
 
 
 Currently the library is only partially finished and only of limited funcitonality.
+
+This for aims to finish the cursor support for 2DCur objects
