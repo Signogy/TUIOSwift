@@ -55,12 +55,15 @@ class MyListener: TuioListener {
      *
      * @param  tcur  the TuioCursor reference associated to the updateTuioCursor event
      */
-    func updateTuioCursor(tcur:TuioCursor){}
+    func updateTuioCursor(tcur:TuioCursor){
+        print("\(name)  updated Cursor")
+    }
     /**
      * This callback method is invoked by the TuioClient when an existing TuioCursor is removed from the session.
      *
      * @param  tcur  the TuioCursor reference associated to the removeTuioCursor event
      */
+
     func removeTuioCursor(tcur:TuioCursor){}
     
     /**

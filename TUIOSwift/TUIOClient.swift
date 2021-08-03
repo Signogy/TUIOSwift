@@ -97,7 +97,6 @@ class TUIOClient: F53OSCPacketDestination {
         
         oscServer.port=UInt16(port)
         oscServer.delegate=self;
-        
         if oscServer.startListening() {
             print("Listening for messages on port \(oscServer.port)")
             connected = true;
@@ -404,7 +403,7 @@ class TUIOClient: F53OSCPacketDestination {
             //-------------------Handle 2Dcur---------------------------
             
         } else if (address == "/tuio/2Dcur") {
-            
+            print("Got command: " + command)
             if (command  == "set"){
                 
                 
@@ -417,25 +416,27 @@ class TUIOClient: F53OSCPacketDestination {
                 
                 print("set cur \(s_id) \(xpos) \(ypos) \(xspeed) \(yspeed) \(maccel)")
                 
-                if ((cursorList[s_id]) != nil){
+                if ((cursorList[s_id]) == nil){
                     
                     let addCursor =  TuioCursor(si: s_id, ci: -1 ,xp: xpos,yp: ypos);
                     frameCursors.append(addCursor);
+                    cursorList[s_id] = addCursor
                     
                 } else {
-                    let tcur = cursorList[s_id]
-                    if (tcur==nil){
-                        return;
+                    if let tcur = cursorList[s_id]{
+                        if (!(tcur.xpos==xpos) || !(tcur.ypos==ypos) || !(tcur.x_speed==xspeed) || !(tcur.y_speed==yspeed) || !(tcur.motion_accel==maccel)) {
+                            
+                            let updateCursor =  TuioCursor(si: s_id,ci: tcur.getCursorID(),xp: xpos,yp: ypos);
+                            updateCursor.update(xp: xpos,yp: ypos,xs: xspeed,ys: yspeed,ma: maccel);
+                            frameCursors.append(updateCursor);
+                        }
+                        for listener in self.listenerList{
+                            listener.updateTuioCursor(tcur: tcur)
+                        }
+                    }else{
+                        return
                     }
-                    
-                    if (!(tcur!.xpos==xpos) || !(tcur!.ypos==ypos) || !(tcur!.x_speed==xspeed) || !(tcur!.y_speed==yspeed) || !(tcur!.motion_accel==maccel)) {
-                        
-                        let updateCursor =  TuioCursor(si: s_id,ci: tcur!.getCursorID(),xp: xpos,yp: ypos);
-                        updateCursor.update(xp: xpos,yp: ypos,xs: xspeed,ys: yspeed,ma: maccel);
-                        frameCursors.append(updateCursor);
-                    }
-                }
-                
+                }                
             } else if (command == "alive") {
                 newCursorList.removeAll()
                 
@@ -527,6 +528,11 @@ class TUIOClient: F53OSCPacketDestination {
                             
                             break;
                         case TuioCursor.TUIO_ADDED:
+                            print("cursor added...")
+                            
+                            for listener in self.listenerList{
+                                listener.addTuioCursor(tcur: tcur)
+                            }
                             
                             var c_id=cursorList.count
                             
