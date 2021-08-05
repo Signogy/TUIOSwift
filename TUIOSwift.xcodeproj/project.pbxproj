@@ -10,36 +10,34 @@
 		AC4D44A71E65717A0062105C /* TuioPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D449F1E65717A0062105C /* TuioPoint.swift */; };
 		AC4D44A81E65717A0062105C /* TuioTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A01E65717A0062105C /* TuioTime.swift */; };
 		AC4D44A91E65717A0062105C /* TuioContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A11E65717A0062105C /* TuioContainer.swift */; };
-		AC4D44AA1E65717A0062105C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A21E65717A0062105C /* Queue.swift */; };
 		AC4D44AB1E65717A0062105C /* TuioListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A31E65717A0062105C /* TuioListener.swift */; };
 		AC4D44AC1E65717A0062105C /* TuioBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A41E65717A0062105C /* TuioBlob.swift */; };
 		AC4D44AD1E65717A0062105C /* TuioCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A51E65717A0062105C /* TuioCursor.swift */; };
-		AC4D44B01E65755E0062105C /* TUIOServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44AF1E65755E0062105C /* TUIOServer.swift */; };
-		AC4D44B21E6578E80062105C /* Tangible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B11E6578E80062105C /* Tangible.swift */; };
-		AC4D44B41E657AC20062105C /* Point2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B31E657AC20062105C /* Point2D.swift */; };
-		AC4D44B71E659F160062105C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B61E659F160062105C /* Manager.swift */; };
-		AC4D44B91E65A0430062105C /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B81E65A0430062105C /* Finger.swift */; };
-		ACA3B0601E5F344300AE8C30 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B05F1E5F344300AE8C30 /* main.swift */; };
-		ACA3B08A1E5F346300AE8C30 /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0691E5F346300AE8C30 /* F53OSCBundle.m */; };
-		ACA3B08B1E5F346300AE8C30 /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B06B1E5F346300AE8C30 /* F53OSCClient.m */; };
-		ACA3B08C1E5F346300AE8C30 /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B06E1E5F346300AE8C30 /* F53OSCMessage.m */; };
-		ACA3B08D1E5F346300AE8C30 /* F53OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0701E5F346300AE8C30 /* F53OSCPacket.m */; };
-		ACA3B08E1E5F346300AE8C30 /* F53OSCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0721E5F346300AE8C30 /* F53OSCParser.m */; };
-		ACA3B08F1E5F346300AE8C30 /* F53OSCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0751E5F346300AE8C30 /* F53OSCServer.m */; };
-		ACA3B0901E5F346300AE8C30 /* F53OSCSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0771E5F346300AE8C30 /* F53OSCSocket.m */; };
-		ACA3B0911E5F346300AE8C30 /* F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0791E5F346300AE8C30 /* F53OSCTimeTag.m */; };
-		ACA3B0921E5F346300AE8C30 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B07B1E5F346300AE8C30 /* GCDAsyncSocket.m */; };
-		ACA3B0931E5F346300AE8C30 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B07D1E5F346300AE8C30 /* GCDAsyncUdpSocket.m */; };
-		ACA3B0951E5F346300AE8C30 /* NSData+F53OSCBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0821E5F346300AE8C30 /* NSData+F53OSCBlob.m */; };
-		ACA3B0961E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0841E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m */; };
-		ACA3B0971E5F346300AE8C30 /* NSNumber+F53OSCNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0861E5F346300AE8C30 /* NSNumber+F53OSCNumber.m */; };
-		ACA3B0981E5F346300AE8C30 /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0881E5F346300AE8C30 /* NSString+F53OSCString.m */; };
-		ACA3B0991E5F346300AE8C30 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0891E5F346300AE8C30 /* README.markdown */; };
 		ACA3B0A21E5F3FCC00AE8C30 /* TUIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */; };
-		ACF6F68E1EA6382200F3473C /* MyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6F68D1EA6382200F3473C /* MyListener.swift */; };
 		BA9863EF26BC013200E09C7E /* TuioObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A61E65717A0062105C /* TuioObject.swift */; };
-		BA9863F326BC026800E09C7E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9863F026BC026800E09C7E /* Package.swift */; };
-		BA9863F426BC026800E09C7E /* oscswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9863F126BC026800E09C7E /* oscswift.swift */; };
+		BA98643D26BC0AF500E09C7E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98641126BC0AF400E09C7E /* Queue.swift */; };
+		BA98643E26BC0AF500E09C7E /* Tangible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98641226BC0AF400E09C7E /* Tangible.swift */; };
+		BA98643F26BC0AF500E09C7E /* TUIOServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98641326BC0AF400E09C7E /* TUIOServer.swift */; };
+		BA98644026BC0AF500E09C7E /* Point2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98641426BC0AF500E09C7E /* Point2D.swift */; };
+		BA98644126BC0AF500E09C7E /* Finger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98641526BC0AF500E09C7E /* Finger.swift */; };
+		BA98644226BC0AF500E09C7E /* F53OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98641826BC0AF500E09C7E /* F53OSCPacket.m */; };
+		BA98644326BC0AF500E09C7E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98641926BC0AF500E09C7E /* GCDAsyncUdpSocket.m */; };
+		BA98644426BC0AF500E09C7E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98641C26BC0AF500E09C7E /* GCDAsyncSocket.m */; };
+		BA98644526BC0AF500E09C7E /* F53OSCServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642226BC0AF500E09C7E /* F53OSCServer.m */; };
+		BA98644626BC0AF500E09C7E /* NSNumber+F53OSCNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642326BC0AF500E09C7E /* NSNumber+F53OSCNumber.m */; };
+		BA98644726BC0AF500E09C7E /* F53OSCSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642426BC0AF500E09C7E /* F53OSCSocket.m */; };
+		BA98644826BC0AF500E09C7E /* NSString+F53OSCString.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642826BC0AF500E09C7E /* NSString+F53OSCString.m */; };
+		BA98644926BC0AF500E09C7E /* F53OSCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642C26BC0AF500E09C7E /* F53OSCClient.m */; };
+		BA98644A26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98642D26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m */; };
+		BA98644B26BC0AF500E09C7E /* oscswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98643226BC0AF500E09C7E /* oscswift.swift */; };
+		BA98644C26BC0AF500E09C7E /* F53OSCTimeTag.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98643326BC0AF500E09C7E /* F53OSCTimeTag.m */; };
+		BA98644D26BC0AF500E09C7E /* NSData+F53OSCBlob.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98643426BC0AF500E09C7E /* NSData+F53OSCBlob.m */; };
+		BA98644E26BC0AF500E09C7E /* F53OSCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98643626BC0AF500E09C7E /* F53OSCParser.m */; };
+		BA98644F26BC0AF500E09C7E /* F53OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98643826BC0AF500E09C7E /* F53OSCMessage.m */; };
+		BA98645026BC0AF500E09C7E /* F53OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98643926BC0AF500E09C7E /* F53OSCBundle.m */; };
+		BA98645126BC0AF500E09C7E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98643A26BC0AF500E09C7E /* Manager.swift */; };
+		BA98645326BC0B1700E09C7E /* MyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98645226BC0B1700E09C7E /* MyListener.swift */; };
+		BA98645526BC0B3900E09C7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98645426BC0B3900E09C7E /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,7 +56,6 @@
 		AC4D449F1E65717A0062105C /* TuioPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioPoint.swift; sourceTree = "<group>"; };
 		AC4D44A01E65717A0062105C /* TuioTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioTime.swift; sourceTree = "<group>"; };
 		AC4D44A11E65717A0062105C /* TuioContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioContainer.swift; sourceTree = "<group>"; };
-		AC4D44A21E65717A0062105C /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		AC4D44A31E65717A0062105C /* TuioListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioListener.swift; sourceTree = "<group>"; };
 		AC4D44A41E65717A0062105C /* TuioBlob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioBlob.swift; sourceTree = "<group>"; };
 		AC4D44A51E65717A0062105C /* TuioCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuioCursor.swift; sourceTree = "<group>"; };
@@ -69,46 +66,53 @@
 		AC4D44B61E659F160062105C /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		AC4D44B81E65A0430062105C /* Finger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
 		ACA3B05C1E5F344300AE8C30 /* TUIOSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TUIOSwift; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACA3B05F1E5F344300AE8C30 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		ACA3B0681E5F346300AE8C30 /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCBundle.h; sourceTree = "<group>"; };
-		ACA3B0691E5F346300AE8C30 /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCBundle.m; sourceTree = "<group>"; };
-		ACA3B06A1E5F346300AE8C30 /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCClient.h; sourceTree = "<group>"; };
-		ACA3B06B1E5F346300AE8C30 /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCClient.m; sourceTree = "<group>"; };
-		ACA3B06C1E5F346300AE8C30 /* F53OSCFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCFoundationAdditions.h; sourceTree = "<group>"; };
-		ACA3B06D1E5F346300AE8C30 /* F53OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCMessage.h; sourceTree = "<group>"; };
-		ACA3B06E1E5F346300AE8C30 /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCMessage.m; sourceTree = "<group>"; };
-		ACA3B06F1E5F346300AE8C30 /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCPacket.h; sourceTree = "<group>"; };
-		ACA3B0701E5F346300AE8C30 /* F53OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCPacket.m; sourceTree = "<group>"; };
-		ACA3B0711E5F346300AE8C30 /* F53OSCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCParser.h; sourceTree = "<group>"; };
-		ACA3B0721E5F346300AE8C30 /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCParser.m; sourceTree = "<group>"; };
-		ACA3B0731E5F346300AE8C30 /* F53OSCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCProtocols.h; sourceTree = "<group>"; };
-		ACA3B0741E5F346300AE8C30 /* F53OSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCServer.h; sourceTree = "<group>"; };
-		ACA3B0751E5F346300AE8C30 /* F53OSCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCServer.m; sourceTree = "<group>"; };
-		ACA3B0761E5F346300AE8C30 /* F53OSCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCSocket.h; sourceTree = "<group>"; };
-		ACA3B0771E5F346300AE8C30 /* F53OSCSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCSocket.m; sourceTree = "<group>"; };
-		ACA3B0781E5F346300AE8C30 /* F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCTimeTag.h; sourceTree = "<group>"; };
-		ACA3B0791E5F346300AE8C30 /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCTimeTag.m; sourceTree = "<group>"; };
-		ACA3B07A1E5F346300AE8C30 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		ACA3B07B1E5F346300AE8C30 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		ACA3B07C1E5F346300AE8C30 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		ACA3B07D1E5F346300AE8C30 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		ACA3B07E1E5F346300AE8C30 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		ACA3B0811E5F346300AE8C30 /* NSData+F53OSCBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+F53OSCBlob.h"; sourceTree = "<group>"; };
-		ACA3B0821E5F346300AE8C30 /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+F53OSCBlob.m"; sourceTree = "<group>"; };
-		ACA3B0831E5F346300AE8C30 /* NSDate+F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+F53OSCTimeTag.h"; sourceTree = "<group>"; };
-		ACA3B0841E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+F53OSCTimeTag.m"; sourceTree = "<group>"; };
-		ACA3B0851E5F346300AE8C30 /* NSNumber+F53OSCNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+F53OSCNumber.h"; sourceTree = "<group>"; };
-		ACA3B0861E5F346300AE8C30 /* NSNumber+F53OSCNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+F53OSCNumber.m"; sourceTree = "<group>"; };
-		ACA3B0871E5F346300AE8C30 /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+F53OSCString.h"; sourceTree = "<group>"; };
-		ACA3B0881E5F346300AE8C30 /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+F53OSCString.m"; sourceTree = "<group>"; };
-		ACA3B0891E5F346300AE8C30 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		ACA3B09A1E5F34A600AE8C30 /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSC.h; sourceTree = "<group>"; };
-		ACA3B09E1E5F3DE800AE8C30 /* TUIOSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUIOSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUIOClient.swift; sourceTree = "<group>"; };
-		ACF6F68D1EA6382200F3473C /* MyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListener.swift; sourceTree = "<group>"; };
 		BA9863F026BC026800E09C7E /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		BA9863F126BC026800E09C7E /* oscswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oscswift.swift; sourceTree = "<group>"; };
 		BA9863F226BC026800E09C7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA98640926BC0A1600E09C7E /* TUIOSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUIOSwiftTests.swift; sourceTree = "<group>"; };
+		BA98641126BC0AF400E09C7E /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		BA98641226BC0AF400E09C7E /* Tangible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tangible.swift; sourceTree = "<group>"; };
+		BA98641326BC0AF400E09C7E /* TUIOServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUIOServer.swift; sourceTree = "<group>"; };
+		BA98641426BC0AF500E09C7E /* Point2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point2D.swift; sourceTree = "<group>"; };
+		BA98641526BC0AF500E09C7E /* Finger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finger.swift; sourceTree = "<group>"; };
+		BA98641726BC0AF500E09C7E /* F53OSCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCProtocols.h; sourceTree = "<group>"; };
+		BA98641826BC0AF500E09C7E /* F53OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCPacket.m; sourceTree = "<group>"; };
+		BA98641926BC0AF500E09C7E /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BA98641A26BC0AF500E09C7E /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+F53OSCString.h"; sourceTree = "<group>"; };
+		BA98641B26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+F53OSCTimeTag.h"; sourceTree = "<group>"; };
+		BA98641C26BC0AF500E09C7E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BA98641D26BC0AF500E09C7E /* F53OSCFoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCFoundationAdditions.h; sourceTree = "<group>"; };
+		BA98641E26BC0AF500E09C7E /* F53OSCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCClient.h; sourceTree = "<group>"; };
+		BA98641F26BC0AF500E09C7E /* TUIOSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUIOSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA98642026BC0AF500E09C7E /* NSData+F53OSCBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+F53OSCBlob.h"; sourceTree = "<group>"; };
+		BA98642126BC0AF500E09C7E /* F53OSCTimeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCTimeTag.h; sourceTree = "<group>"; };
+		BA98642226BC0AF500E09C7E /* F53OSCServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCServer.m; sourceTree = "<group>"; };
+		BA98642326BC0AF500E09C7E /* NSNumber+F53OSCNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+F53OSCNumber.m"; sourceTree = "<group>"; };
+		BA98642426BC0AF500E09C7E /* F53OSCSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCSocket.m; sourceTree = "<group>"; };
+		BA98642526BC0AF500E09C7E /* F53OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCMessage.h; sourceTree = "<group>"; };
+		BA98642626BC0AF500E09C7E /* F53OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCBundle.h; sourceTree = "<group>"; };
+		BA98642726BC0AF500E09C7E /* F53OSCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCParser.h; sourceTree = "<group>"; };
+		BA98642826BC0AF500E09C7E /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+F53OSCString.m"; sourceTree = "<group>"; };
+		BA98642926BC0AF500E09C7E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BA98642A26BC0AF500E09C7E /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCPacket.h; sourceTree = "<group>"; };
+		BA98642B26BC0AF500E09C7E /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		BA98642C26BC0AF500E09C7E /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCClient.m; sourceTree = "<group>"; };
+		BA98642D26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+F53OSCTimeTag.m"; sourceTree = "<group>"; };
+		BA98642E26BC0AF500E09C7E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		BA98642F26BC0AF500E09C7E /* F53OSCSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCSocket.h; sourceTree = "<group>"; };
+		BA98643026BC0AF500E09C7E /* NSNumber+F53OSCNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+F53OSCNumber.h"; sourceTree = "<group>"; };
+		BA98643126BC0AF500E09C7E /* F53OSCServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCServer.h; sourceTree = "<group>"; };
+		BA98643226BC0AF500E09C7E /* oscswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oscswift.swift; sourceTree = "<group>"; };
+		BA98643326BC0AF500E09C7E /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCTimeTag.m; sourceTree = "<group>"; };
+		BA98643426BC0AF500E09C7E /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+F53OSCBlob.m"; sourceTree = "<group>"; };
+		BA98643526BC0AF500E09C7E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BA98643626BC0AF500E09C7E /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCParser.m; sourceTree = "<group>"; };
+		BA98643726BC0AF500E09C7E /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSC.h; sourceTree = "<group>"; };
+		BA98643826BC0AF500E09C7E /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCMessage.m; sourceTree = "<group>"; };
+		BA98643926BC0AF500E09C7E /* F53OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCBundle.m; sourceTree = "<group>"; };
+		BA98643A26BC0AF500E09C7E /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		BA98645226BC0B1700E09C7E /* MyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListener.swift; sourceTree = "<group>"; };
+		BA98645426BC0B3900E09C7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,14 +136,17 @@
 				AC4D44B61E659F160062105C /* Manager.swift */,
 			);
 			name = Simulator;
+			path = TUIOSwift;
 			sourceTree = "<group>";
 		};
 		ACA3B0531E5F344300AE8C30 = {
 			isa = PBXGroup;
 			children = (
+				BA98640426BC0A1600E09C7E /* Sources */,
+				BA98640726BC0A1600E09C7E /* Tests */,
 				BA9863F026BC026800E09C7E /* Package.swift */,
 				BA9863F226BC026800E09C7E /* README.md */,
-				ACA3B05E1E5F344300AE8C30 /* TUIOSwift */,
+				BA98645426BC0B3900E09C7E /* main.swift */,
 				ACA3B05D1E5F344300AE8C30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,64 +159,92 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACA3B05E1E5F344300AE8C30 /* TUIOSwift */ = {
+		BA98640426BC0A1600E09C7E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				BA98640526BC0A1600E09C7E /* TUIOSwift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		BA98640526BC0A1600E09C7E /* TUIOSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BA98645226BC0B1700E09C7E /* MyListener.swift */,
+				BA98641526BC0AF500E09C7E /* Finger.swift */,
+				BA98643A26BC0AF500E09C7E /* Manager.swift */,
+				BA98641626BC0AF500E09C7E /* MetatoneOSC */,
+				BA98641426BC0AF500E09C7E /* Point2D.swift */,
+				BA98641126BC0AF400E09C7E /* Queue.swift */,
+				BA98641226BC0AF400E09C7E /* Tangible.swift */,
+				BA98641326BC0AF400E09C7E /* TUIOServer.swift */,
 				AC4D449F1E65717A0062105C /* TuioPoint.swift */,
 				AC4D44A01E65717A0062105C /* TuioTime.swift */,
 				AC4D44A11E65717A0062105C /* TuioContainer.swift */,
-				AC4D44A21E65717A0062105C /* Queue.swift */,
 				AC4D44A31E65717A0062105C /* TuioListener.swift */,
 				AC4D44A41E65717A0062105C /* TuioBlob.swift */,
 				AC4D44A51E65717A0062105C /* TuioCursor.swift */,
 				AC4D44A61E65717A0062105C /* TuioObject.swift */,
-				ACA3B0661E5F346300AE8C30 /* MetatoneOSC */,
-				ACA3B05F1E5F344300AE8C30 /* main.swift */,
-				ACF6F68D1EA6382200F3473C /* MyListener.swift */,
 				ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */,
 				AC4D44B51E659EF40062105C /* Simulator */,
 			);
 			path = TUIOSwift;
 			sourceTree = "<group>";
 		};
-		ACA3B0661E5F346300AE8C30 /* MetatoneOSC */ = {
+		BA98640726BC0A1600E09C7E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				ACA3B09E1E5F3DE800AE8C30 /* TUIOSwift-Bridging-Header.h */,
-				BA9863F126BC026800E09C7E /* oscswift.swift */,
-				ACA3B09A1E5F34A600AE8C30 /* F53OSC.h */,
-				ACA3B0681E5F346300AE8C30 /* F53OSCBundle.h */,
-				ACA3B0691E5F346300AE8C30 /* F53OSCBundle.m */,
-				ACA3B06A1E5F346300AE8C30 /* F53OSCClient.h */,
-				ACA3B06B1E5F346300AE8C30 /* F53OSCClient.m */,
-				ACA3B06C1E5F346300AE8C30 /* F53OSCFoundationAdditions.h */,
-				ACA3B06D1E5F346300AE8C30 /* F53OSCMessage.h */,
-				ACA3B06E1E5F346300AE8C30 /* F53OSCMessage.m */,
-				ACA3B06F1E5F346300AE8C30 /* F53OSCPacket.h */,
-				ACA3B0701E5F346300AE8C30 /* F53OSCPacket.m */,
-				ACA3B0711E5F346300AE8C30 /* F53OSCParser.h */,
-				ACA3B0721E5F346300AE8C30 /* F53OSCParser.m */,
-				ACA3B0731E5F346300AE8C30 /* F53OSCProtocols.h */,
-				ACA3B0741E5F346300AE8C30 /* F53OSCServer.h */,
-				ACA3B0751E5F346300AE8C30 /* F53OSCServer.m */,
-				ACA3B0761E5F346300AE8C30 /* F53OSCSocket.h */,
-				ACA3B0771E5F346300AE8C30 /* F53OSCSocket.m */,
-				ACA3B0781E5F346300AE8C30 /* F53OSCTimeTag.h */,
-				ACA3B0791E5F346300AE8C30 /* F53OSCTimeTag.m */,
-				ACA3B07A1E5F346300AE8C30 /* GCDAsyncSocket.h */,
-				ACA3B07B1E5F346300AE8C30 /* GCDAsyncSocket.m */,
-				ACA3B07C1E5F346300AE8C30 /* GCDAsyncUdpSocket.h */,
-				ACA3B07D1E5F346300AE8C30 /* GCDAsyncUdpSocket.m */,
-				ACA3B07E1E5F346300AE8C30 /* LICENSE.txt */,
-				ACA3B0811E5F346300AE8C30 /* NSData+F53OSCBlob.h */,
-				ACA3B0821E5F346300AE8C30 /* NSData+F53OSCBlob.m */,
-				ACA3B0831E5F346300AE8C30 /* NSDate+F53OSCTimeTag.h */,
-				ACA3B0841E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m */,
-				ACA3B0851E5F346300AE8C30 /* NSNumber+F53OSCNumber.h */,
-				ACA3B0861E5F346300AE8C30 /* NSNumber+F53OSCNumber.m */,
-				ACA3B0871E5F346300AE8C30 /* NSString+F53OSCString.h */,
-				ACA3B0881E5F346300AE8C30 /* NSString+F53OSCString.m */,
-				ACA3B0891E5F346300AE8C30 /* README.markdown */,
+				BA98640826BC0A1600E09C7E /* TUIOSwiftTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		BA98640826BC0A1600E09C7E /* TUIOSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA98640926BC0A1600E09C7E /* TUIOSwiftTests.swift */,
+			);
+			path = TUIOSwiftTests;
+			sourceTree = "<group>";
+		};
+		BA98641626BC0AF500E09C7E /* MetatoneOSC */ = {
+			isa = PBXGroup;
+			children = (
+				BA98641726BC0AF500E09C7E /* F53OSCProtocols.h */,
+				BA98641826BC0AF500E09C7E /* F53OSCPacket.m */,
+				BA98641926BC0AF500E09C7E /* GCDAsyncUdpSocket.m */,
+				BA98641A26BC0AF500E09C7E /* NSString+F53OSCString.h */,
+				BA98641B26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.h */,
+				BA98641C26BC0AF500E09C7E /* GCDAsyncSocket.m */,
+				BA98641D26BC0AF500E09C7E /* F53OSCFoundationAdditions.h */,
+				BA98641E26BC0AF500E09C7E /* F53OSCClient.h */,
+				BA98641F26BC0AF500E09C7E /* TUIOSwift-Bridging-Header.h */,
+				BA98642026BC0AF500E09C7E /* NSData+F53OSCBlob.h */,
+				BA98642126BC0AF500E09C7E /* F53OSCTimeTag.h */,
+				BA98642226BC0AF500E09C7E /* F53OSCServer.m */,
+				BA98642326BC0AF500E09C7E /* NSNumber+F53OSCNumber.m */,
+				BA98642426BC0AF500E09C7E /* F53OSCSocket.m */,
+				BA98642526BC0AF500E09C7E /* F53OSCMessage.h */,
+				BA98642626BC0AF500E09C7E /* F53OSCBundle.h */,
+				BA98642726BC0AF500E09C7E /* F53OSCParser.h */,
+				BA98642826BC0AF500E09C7E /* NSString+F53OSCString.m */,
+				BA98642926BC0AF500E09C7E /* GCDAsyncUdpSocket.h */,
+				BA98642A26BC0AF500E09C7E /* F53OSCPacket.h */,
+				BA98642B26BC0AF500E09C7E /* README.markdown */,
+				BA98642C26BC0AF500E09C7E /* F53OSCClient.m */,
+				BA98642D26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m */,
+				BA98642E26BC0AF500E09C7E /* GCDAsyncSocket.h */,
+				BA98642F26BC0AF500E09C7E /* F53OSCSocket.h */,
+				BA98643026BC0AF500E09C7E /* NSNumber+F53OSCNumber.h */,
+				BA98643126BC0AF500E09C7E /* F53OSCServer.h */,
+				BA98643226BC0AF500E09C7E /* oscswift.swift */,
+				BA98643326BC0AF500E09C7E /* F53OSCTimeTag.m */,
+				BA98643426BC0AF500E09C7E /* NSData+F53OSCBlob.m */,
+				BA98643526BC0AF500E09C7E /* LICENSE.txt */,
+				BA98643626BC0AF500E09C7E /* F53OSCParser.m */,
+				BA98643726BC0AF500E09C7E /* F53OSC.h */,
+				BA98643826BC0AF500E09C7E /* F53OSCMessage.m */,
+				BA98643926BC0AF500E09C7E /* F53OSCBundle.m */,
 			);
 			path = MetatoneOSC;
 			sourceTree = "<group>";
@@ -274,39 +309,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA3B08B1E5F346300AE8C30 /* F53OSCClient.m in Sources */,
-				AC4D44B21E6578E80062105C /* Tangible.swift in Sources */,
+				BA98644626BC0AF500E09C7E /* NSNumber+F53OSCNumber.m in Sources */,
+				BA98644826BC0AF500E09C7E /* NSString+F53OSCString.m in Sources */,
+				BA98644726BC0AF500E09C7E /* F53OSCSocket.m in Sources */,
 				AC4D44A91E65717A0062105C /* TuioContainer.swift in Sources */,
-				ACA3B0951E5F346300AE8C30 /* NSData+F53OSCBlob.m in Sources */,
-				AC4D44B91E65A0430062105C /* Finger.swift in Sources */,
 				AC4D44AB1E65717A0062105C /* TuioListener.swift in Sources */,
-				AC4D44AA1E65717A0062105C /* Queue.swift in Sources */,
-				ACA3B0931E5F346300AE8C30 /* GCDAsyncUdpSocket.m in Sources */,
-				ACA3B08E1E5F346300AE8C30 /* F53OSCParser.m in Sources */,
-				ACF6F68E1EA6382200F3473C /* MyListener.swift in Sources */,
-				ACA3B08A1E5F346300AE8C30 /* F53OSCBundle.m in Sources */,
-				ACA3B08C1E5F346300AE8C30 /* F53OSCMessage.m in Sources */,
-				ACA3B0961E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m in Sources */,
+				BA98644F26BC0AF500E09C7E /* F53OSCMessage.m in Sources */,
 				BA9863EF26BC013200E09C7E /* TuioObject.swift in Sources */,
-				ACA3B0601E5F344300AE8C30 /* main.swift in Sources */,
-				ACA3B0971E5F346300AE8C30 /* NSNumber+F53OSCNumber.m in Sources */,
+				BA98644426BC0AF500E09C7E /* GCDAsyncSocket.m in Sources */,
+				BA98644026BC0AF500E09C7E /* Point2D.swift in Sources */,
+				BA98644E26BC0AF500E09C7E /* F53OSCParser.m in Sources */,
+				BA98644226BC0AF500E09C7E /* F53OSCPacket.m in Sources */,
 				AC4D44A81E65717A0062105C /* TuioTime.swift in Sources */,
+				BA98644126BC0AF500E09C7E /* Finger.swift in Sources */,
 				ACA3B0A21E5F3FCC00AE8C30 /* TUIOClient.swift in Sources */,
-				ACA3B0901E5F346300AE8C30 /* F53OSCSocket.m in Sources */,
-				AC4D44B41E657AC20062105C /* Point2D.swift in Sources */,
-				BA9863F326BC026800E09C7E /* Package.swift in Sources */,
-				ACA3B0921E5F346300AE8C30 /* GCDAsyncSocket.m in Sources */,
-				BA9863F426BC026800E09C7E /* oscswift.swift in Sources */,
-				ACA3B0911E5F346300AE8C30 /* F53OSCTimeTag.m in Sources */,
+				BA98645126BC0AF500E09C7E /* Manager.swift in Sources */,
+				BA98644D26BC0AF500E09C7E /* NSData+F53OSCBlob.m in Sources */,
+				BA98644A26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m in Sources */,
 				AC4D44AC1E65717A0062105C /* TuioBlob.swift in Sources */,
 				AC4D44AD1E65717A0062105C /* TuioCursor.swift in Sources */,
-				ACA3B08F1E5F346300AE8C30 /* F53OSCServer.m in Sources */,
-				ACA3B08D1E5F346300AE8C30 /* F53OSCPacket.m in Sources */,
+				BA98644B26BC0AF500E09C7E /* oscswift.swift in Sources */,
+				BA98645526BC0B3900E09C7E /* main.swift in Sources */,
+				BA98644526BC0AF500E09C7E /* F53OSCServer.m in Sources */,
+				BA98643D26BC0AF500E09C7E /* Queue.swift in Sources */,
+				BA98643E26BC0AF500E09C7E /* Tangible.swift in Sources */,
 				AC4D44A71E65717A0062105C /* TuioPoint.swift in Sources */,
-				ACA3B0981E5F346300AE8C30 /* NSString+F53OSCString.m in Sources */,
-				AC4D44B71E659F160062105C /* Manager.swift in Sources */,
-				AC4D44B01E65755E0062105C /* TUIOServer.swift in Sources */,
-				ACA3B0991E5F346300AE8C30 /* README.markdown in Sources */,
+				BA98645326BC0B1700E09C7E /* MyListener.swift in Sources */,
+				BA98644926BC0AF500E09C7E /* F53OSCClient.m in Sources */,
+				BA98643F26BC0AF500E09C7E /* TUIOServer.swift in Sources */,
+				BA98644326BC0AF500E09C7E /* GCDAsyncUdpSocket.m in Sources */,
+				BA98644C26BC0AF500E09C7E /* F53OSCTimeTag.m in Sources */,
+				BA98645026BC0AF500E09C7E /* F53OSCBundle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +443,7 @@
 				DEVELOPMENT_TEAM = 5VHX4WJT5K;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TUIOSwift/MetatoneOSC/TUIOSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/TUIOSwift/MetatoneOSC/TUIOSwift-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -421,7 +454,7 @@
 				DEVELOPMENT_TEAM = 5VHX4WJT5K;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TUIOSwift/MetatoneOSC/TUIOSwift-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/TUIOSwift/MetatoneOSC/TUIOSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
