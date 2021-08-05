@@ -35,17 +35,17 @@ class TUIOClient: F53OSCPacketDestination {
     let oscServer: F53OSCServer;
     private var connected:Bool = false;
     
-    private var objectList = [CLong:TuioObject]()
-    private var aliveObjectList = [CLong]()
-    private var newObjectList = [CLong]()
+    private var objectList = [String:TuioObject]()
+    private var aliveObjectList = [String]()
+    private var newObjectList = [String]()
     
-    private var cursorList = [CLong:TuioCursor]()
-    private var aliveCursorList = [CLong]()
-    private var newCursorList = [CLong]()
+    private var cursorList = [String:TuioCursor]()
+    private var aliveCursorList = [String]()
+    private var newCursorList = [String]()
     
-    private var blobList = [CLong:TuioBlob]()
-    private var aliveBlobList = [CLong]()
-    private var newBlobList = [CLong]()
+    private var blobList = [String:TuioBlob]()
+    private var aliveBlobList = [String]()
+    private var newBlobList = [String]()
     
     
     private var frameObjects = [TuioObject]()
@@ -206,7 +206,7 @@ class TUIOClient: F53OSCPacketDestination {
      * @param	s_id	the Session ID of the required TuioObject
      * @return  an active TuioObject corresponding to the provided Session ID or NULL
      */
-    func  getTuioObject( s_id:CLong) -> TuioObject?{
+    func  getTuioObject( s_id:String) -> TuioObject?{
         return objectList[s_id];
         
     }
@@ -220,7 +220,7 @@ class TUIOClient: F53OSCPacketDestination {
      * @return  an active TuioCursor corresponding to the provided Session ID or NULL
      */
     
-    func  getTuioCursor( s_id:CLong) -> TuioCursor?{
+    func  getTuioCursor( s_id:String) -> TuioCursor?{
         return cursorList[s_id];
         
     }
@@ -233,7 +233,7 @@ class TUIOClient: F53OSCPacketDestination {
      * @return  an active TuioBlob corresponding to the provided Session ID or NULL
      */
     
-    func  getTuioBlob( s_id:CLong) -> TuioBlob?{
+    func  getTuioBlob( s_id:String) -> TuioBlob?{
         return blobList[s_id];
         
     }
@@ -259,7 +259,7 @@ class TUIOClient: F53OSCPacketDestination {
             if (command  == "set") {
                 
                 
-                let s_id  = args[1] as! CLong;
+                let s_id  = args[1] as! String;
                 let c_id  = args[2] as! Int;
                 let xpos = args[3] as! Float
                 let ypos = args[4] as! Float
@@ -302,7 +302,7 @@ class TUIOClient: F53OSCPacketDestination {
                 
                 for i in 1 ..< args.count  {
                     // get the message content
-                    let s_id:CLong = args[i] as! CLong;
+                    let s_id = args[i] as! String;
                     
                     newObjectList.append(s_id);
                     // reduce the object list to the lost objects
@@ -407,7 +407,7 @@ class TUIOClient: F53OSCPacketDestination {
             if (command  == "set"){
                 
                 
-                let s_id  = args[1] as! CLong;
+                let s_id  = args[1] as! String;
                 let xpos = args[2] as! Float
                 let ypos = args[3] as! Float
                 let xspeed = args[4] as! Float
@@ -443,10 +443,10 @@ class TUIOClient: F53OSCPacketDestination {
                 newCursorList.removeAll()
                 
                 //print("alive!")
-                var newCursorList = [CLong:TuioCursor]()
+                var newCursorList = [String:TuioCursor]()
                 for i in 1 ..< args.count  {
                     // get the message content
-                    let s_id = args[i] as! CLong
+                    let s_id = args[i] as! String
                     if let tcur = self.getTuioCursor(s_id: s_id){
                         //print("cursor %ld is still alive", s_id)
                         newCursorList[s_id] = tcur
@@ -471,6 +471,7 @@ class TUIOClient: F53OSCPacketDestination {
                 cursorList = newCursorList
                 
                 // remove the remaining cursors
+                /*
                 for i in 0 ..< aliveCursorList.count  {
                     let removeCursor = cursorList[aliveCursorList[i]]
                     
@@ -480,6 +481,7 @@ class TUIOClient: F53OSCPacketDestination {
                         
                     }
                 }
+ */
                 //
                 
                 

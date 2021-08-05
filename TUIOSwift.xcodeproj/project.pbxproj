@@ -14,7 +14,6 @@
 		AC4D44AB1E65717A0062105C /* TuioListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A31E65717A0062105C /* TuioListener.swift */; };
 		AC4D44AC1E65717A0062105C /* TuioBlob.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A41E65717A0062105C /* TuioBlob.swift */; };
 		AC4D44AD1E65717A0062105C /* TuioCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A51E65717A0062105C /* TuioCursor.swift */; };
-		AC4D44AE1E65717A0062105C /* TuioObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A61E65717A0062105C /* TuioObject.swift */; };
 		AC4D44B01E65755E0062105C /* TUIOServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44AF1E65755E0062105C /* TUIOServer.swift */; };
 		AC4D44B21E6578E80062105C /* Tangible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B11E6578E80062105C /* Tangible.swift */; };
 		AC4D44B41E657AC20062105C /* Point2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B31E657AC20062105C /* Point2D.swift */; };
@@ -38,6 +37,9 @@
 		ACA3B0991E5F346300AE8C30 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0891E5F346300AE8C30 /* README.markdown */; };
 		ACA3B0A21E5F3FCC00AE8C30 /* TUIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */; };
 		ACF6F68E1EA6382200F3473C /* MyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6F68D1EA6382200F3473C /* MyListener.swift */; };
+		BA9863EF26BC013200E09C7E /* TuioObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44A61E65717A0062105C /* TuioObject.swift */; };
+		BA9863F326BC026800E09C7E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9863F026BC026800E09C7E /* Package.swift */; };
+		BA9863F426BC026800E09C7E /* oscswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9863F126BC026800E09C7E /* oscswift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -104,6 +106,9 @@
 		ACA3B09E1E5F3DE800AE8C30 /* TUIOSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TUIOSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUIOClient.swift; sourceTree = "<group>"; };
 		ACF6F68D1EA6382200F3473C /* MyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListener.swift; sourceTree = "<group>"; };
+		BA9863F026BC026800E09C7E /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		BA9863F126BC026800E09C7E /* oscswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oscswift.swift; sourceTree = "<group>"; };
+		BA9863F226BC026800E09C7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +137,8 @@
 		ACA3B0531E5F344300AE8C30 = {
 			isa = PBXGroup;
 			children = (
+				BA9863F026BC026800E09C7E /* Package.swift */,
+				BA9863F226BC026800E09C7E /* README.md */,
 				ACA3B05E1E5F344300AE8C30 /* TUIOSwift */,
 				ACA3B05D1E5F344300AE8C30 /* Products */,
 			);
@@ -169,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				ACA3B09E1E5F3DE800AE8C30 /* TUIOSwift-Bridging-Header.h */,
+				BA9863F126BC026800E09C7E /* oscswift.swift */,
 				ACA3B09A1E5F34A600AE8C30 /* F53OSC.h */,
 				ACA3B0681E5F346300AE8C30 /* F53OSCBundle.h */,
 				ACA3B0691E5F346300AE8C30 /* F53OSCBundle.m */,
@@ -279,14 +287,16 @@
 				ACA3B08A1E5F346300AE8C30 /* F53OSCBundle.m in Sources */,
 				ACA3B08C1E5F346300AE8C30 /* F53OSCMessage.m in Sources */,
 				ACA3B0961E5F346300AE8C30 /* NSDate+F53OSCTimeTag.m in Sources */,
+				BA9863EF26BC013200E09C7E /* TuioObject.swift in Sources */,
 				ACA3B0601E5F344300AE8C30 /* main.swift in Sources */,
 				ACA3B0971E5F346300AE8C30 /* NSNumber+F53OSCNumber.m in Sources */,
 				AC4D44A81E65717A0062105C /* TuioTime.swift in Sources */,
 				ACA3B0A21E5F3FCC00AE8C30 /* TUIOClient.swift in Sources */,
 				ACA3B0901E5F346300AE8C30 /* F53OSCSocket.m in Sources */,
 				AC4D44B41E657AC20062105C /* Point2D.swift in Sources */,
-				AC4D44AE1E65717A0062105C /* TuioObject.swift in Sources */,
+				BA9863F326BC026800E09C7E /* Package.swift in Sources */,
 				ACA3B0921E5F346300AE8C30 /* GCDAsyncSocket.m in Sources */,
+				BA9863F426BC026800E09C7E /* oscswift.swift in Sources */,
 				ACA3B0911E5F346300AE8C30 /* F53OSCTimeTag.m in Sources */,
 				AC4D44AC1E65717A0062105C /* TuioBlob.swift in Sources */,
 				AC4D44AD1E65717A0062105C /* TuioCursor.swift in Sources */,

@@ -25,7 +25,7 @@ class TuioContainer:TuioPoint {
     /**
      * The unique session ID number that is assigned to each TUIO object or cursor.
      */
-    var session_id:CLong
+    var session_id:String
     
     /**
      * The X-axis velocity value.
@@ -84,7 +84,7 @@ class TuioContainer:TuioPoint {
     static let TUIO_REMOVED:Int = 4;
     
     private  override init(){
-        self.session_id=0;
+        self.session_id="0";
         self.x_speed=0
         self.y_speed=0
         self.motion_speed=0
@@ -105,7 +105,7 @@ class TuioContainer:TuioPoint {
      * @param	xp	the X coordinate to assign
      * @param	yp	the Y coordinate to assign
      */
-    init(ttime:TuioTime,  si:CLong,  xp:Float,  yp:Float) {
+    init(ttime:TuioTime,  si:String,  xp:Float,  yp:Float) {
         
         
         session_id = si;
@@ -130,7 +130,7 @@ class TuioContainer:TuioPoint {
      * @param	xp	the X coordinate to assign
      * @param	yp	the Y coordinate to assign
      */
-    init(  si:CLong,  xp:Float,  yp:Float) {
+    init(  si:String,  xp:Float,  yp:Float) {
         session_id = si;
         x_speed = 0.0;
         y_speed = 0.0;
@@ -369,7 +369,7 @@ class TuioContainer:TuioPoint {
      * Returns the Session ID of this TuioContainer.
      * @return	the Session ID of this TuioContainer
      */
-    func getSessionID() ->CLong{
+    func getSessionID() ->String{
         return session_id;
     }
     

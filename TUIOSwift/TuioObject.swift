@@ -61,7 +61,7 @@ class TuioObject: TuioContainer{
      * @param	a	the angle to assign
      */
     
-    init(ttime:TuioTime,  si:CLong,  sym:Int,  xp:Float,  yp:Float, a:Float) {
+    init(ttime:TuioTime,  si:String,  sym:Int,  xp:Float,  yp:Float, a:Float) {
         self.symbol_id = sym;
         angle = a;
         rotation_speed = 0.0;
@@ -81,7 +81,7 @@ class TuioObject: TuioContainer{
      * @param	a	the angle to assign
      */
     
-    init( si:CLong,  sym:Int,  xp:Float,  yp:Float, a:Float) {
+    init( si:String,  sym:Int,  xp:Float,  yp:Float, a:Float) {
         self.symbol_id = sym;
         angle = a;
         rotation_speed = 0.0;

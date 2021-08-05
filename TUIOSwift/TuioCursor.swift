@@ -34,7 +34,7 @@ import Foundation
      * @param	yp	the Y coordinate to assign
      */
     
-    init(ttime:TuioTime,  si:CLong,  ci:Int,  xp:Float,  yp:Float) {
+    init(ttime:TuioTime,  si:String,  ci:Int,  xp:Float,  yp:Float) {
         self.cursor_id = ci;
         super.init(ttime: ttime, si: si,xp: xp,yp: yp)
 
@@ -51,7 +51,7 @@ import Foundation
      * @param	yp	the Y coordinate to assign
      */
     
-    init( si:CLong,  ci:Int,  xp:Float,  yp:Float) {
+    init( si:String,  ci:Int,  xp:Float,  yp:Float) {
         self.cursor_id = ci;
         super.init( si: si,xp: xp,yp: yp)
 
