@@ -38,6 +38,7 @@
 		BA98645126BC0AF500E09C7E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98643A26BC0AF500E09C7E /* Manager.swift */; };
 		BA98645326BC0B1700E09C7E /* MyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98645226BC0B1700E09C7E /* MyListener.swift */; };
 		BA98645526BC0B3900E09C7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98645426BC0B3900E09C7E /* main.swift */; };
+		BA98645726BC118600E09C7E /* TUIOSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98645626BC118600E09C7E /* TUIOSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +114,7 @@
 		BA98643A26BC0AF500E09C7E /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		BA98645226BC0B1700E09C7E /* MyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListener.swift; sourceTree = "<group>"; };
 		BA98645426BC0B3900E09C7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BA98645626BC118600E09C7E /* TUIOSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUIOSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				AC4D44A61E65717A0062105C /* TuioObject.swift */,
 				ACA3B0A11E5F3FCC00AE8C30 /* TUIOClient.swift */,
 				AC4D44B51E659EF40062105C /* Simulator */,
+				BA98645626BC118600E09C7E /* TUIOSwift.swift */,
 			);
 			path = TUIOSwift;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				BA98644526BC0AF500E09C7E /* F53OSCServer.m in Sources */,
 				BA98643D26BC0AF500E09C7E /* Queue.swift in Sources */,
 				BA98643E26BC0AF500E09C7E /* Tangible.swift in Sources */,
+				BA98645726BC118600E09C7E /* TUIOSwift.swift in Sources */,
 				AC4D44A71E65717A0062105C /* TuioPoint.swift in Sources */,
 				BA98645326BC0B1700E09C7E /* MyListener.swift in Sources */,
 				BA98644926BC0AF500E09C7E /* F53OSCClient.m in Sources */,
