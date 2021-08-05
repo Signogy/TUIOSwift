@@ -96,7 +96,7 @@
 		BA98642826BC0AF500E09C7E /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+F53OSCString.m"; sourceTree = "<group>"; };
 		BA98642926BC0AF500E09C7E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		BA98642A26BC0AF500E09C7E /* F53OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSCPacket.h; sourceTree = "<group>"; };
-		BA98642B26BC0AF500E09C7E /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		BA98642B26BC0AF500E09C7E /* README-MetaToneOSC.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-MetaToneOSC.markdown"; sourceTree = "<group>"; };
 		BA98642C26BC0AF500E09C7E /* F53OSCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCClient.m; sourceTree = "<group>"; };
 		BA98642D26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+F53OSCTimeTag.m"; sourceTree = "<group>"; };
 		BA98642E26BC0AF500E09C7E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		BA98643226BC0AF500E09C7E /* oscswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oscswift.swift; sourceTree = "<group>"; };
 		BA98643326BC0AF500E09C7E /* F53OSCTimeTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCTimeTag.m; sourceTree = "<group>"; };
 		BA98643426BC0AF500E09C7E /* NSData+F53OSCBlob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+F53OSCBlob.m"; sourceTree = "<group>"; };
-		BA98643526BC0AF500E09C7E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BA98643526BC0AF500E09C7E /* LICENSE-F53OSC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-F53OSC.txt"; sourceTree = "<group>"; };
 		BA98643626BC0AF500E09C7E /* F53OSCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCParser.m; sourceTree = "<group>"; };
 		BA98643726BC0AF500E09C7E /* F53OSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F53OSC.h; sourceTree = "<group>"; };
 		BA98643826BC0AF500E09C7E /* F53OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F53OSCMessage.m; sourceTree = "<group>"; };
@@ -147,6 +147,8 @@
 				BA98640426BC0A1600E09C7E /* Sources */,
 				BA98640726BC0A1600E09C7E /* Tests */,
 				BA9863F026BC026800E09C7E /* Package.swift */,
+				BA98642B26BC0AF500E09C7E /* README-MetaToneOSC.markdown */,
+				BA98643526BC0AF500E09C7E /* LICENSE-F53OSC.txt */,
 				BA9863F226BC026800E09C7E /* README.md */,
 				BA98645426BC0B3900E09C7E /* main.swift */,
 				ACA3B05D1E5F344300AE8C30 /* Products */,
@@ -233,7 +235,6 @@
 				BA98642826BC0AF500E09C7E /* NSString+F53OSCString.m */,
 				BA98642926BC0AF500E09C7E /* GCDAsyncUdpSocket.h */,
 				BA98642A26BC0AF500E09C7E /* F53OSCPacket.h */,
-				BA98642B26BC0AF500E09C7E /* README.markdown */,
 				BA98642C26BC0AF500E09C7E /* F53OSCClient.m */,
 				BA98642D26BC0AF500E09C7E /* NSDate+F53OSCTimeTag.m */,
 				BA98642E26BC0AF500E09C7E /* GCDAsyncSocket.h */,
@@ -243,7 +244,6 @@
 				BA98643226BC0AF500E09C7E /* oscswift.swift */,
 				BA98643326BC0AF500E09C7E /* F53OSCTimeTag.m */,
 				BA98643426BC0AF500E09C7E /* NSData+F53OSCBlob.m */,
-				BA98643526BC0AF500E09C7E /* LICENSE.txt */,
 				BA98643626BC0AF500E09C7E /* F53OSCParser.m */,
 				BA98643726BC0AF500E09C7E /* F53OSC.h */,
 				BA98643826BC0AF500E09C7E /* F53OSCMessage.m */,
